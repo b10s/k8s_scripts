@@ -5,11 +5,10 @@ set -e
 # The idea of the script is to find k8s objects in all namespaces which use deprecated api in upcoming k8s version
 
 #TODO:
-# - create temp directory
 # - do clean up or keep all in mem without files at all
-# - play with IFS more gracefull via function and local
 # - generate deprecation in more easy way
-# - verify is it trusty way or not
+# - verify is it trusty way or not: https://kubernetes.slack.com/archives/C09NXKJKA/p1570677083239100
+# - use something more popular than yaml2json
 # - check list of requirements (jq, yaml2json, kubectl)
 # - print out more info: cluster, found object, maybe count each type of objects
 # - color maybe in function
